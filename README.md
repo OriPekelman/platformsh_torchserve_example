@@ -10,12 +10,6 @@ Probably still somewhat brittle.
 
 Now the most interesting bit is to see if we can get multiple workers on multiple machines to connect to the same torchserve and do some work? 
 
-<p align="center">
-<a href="https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/python3/.platform.template.yaml&utm_content=python3&utm_source=github&utm_medium=button&utm_campaign=deploy_on_platform">
-    <img src="https://platform.sh/images/deploy/lg-blue.svg" alt="Deploy on Platform.sh" width="180px" />
-</a>
-</p>
-
 The torchserve was added to the repo thusly:
 
 git subtree add --prefix serve git@github.com:pytorch/serve.git v0.8.1 --squash
